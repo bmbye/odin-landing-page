@@ -6,30 +6,66 @@ body {
     margin: 0;
 }
 
-body > * {
+body .section,footer {
     flex: 1;
+    padding: 0 10% 10% 10%;
 }
 
 .hero {
     background-color: #1F2937;
 }
 
+.header {
+    display: inline;
+}
+
 .header h3{
     font-size: 24px;
     color: #F9FAF8;
+    float: left;
 }
 
 .header ul{
     font-size: 18px;
     color: #E5E7EB;
+    float: right;
+}
+
+.header li{
+    text-decoration: none;
+    display: inline;
+    padding: 10px 10px;
+}
+
+.heroBox {
+    display: flex;
+    margin-top: 150px;
+}
+
+.heroBox div{
+    flex: 1
+}
+
+.heroInfo {
+    padding: 0 5%;
 }
 
 .heroInfo h1 {
     font-size: 48px;
     font-weight: extra-bold;
+    color: #F9FAF8;
 }
 
 .heroInfo p {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: large;
+    border-radius: 10%;
+    border: none;
+    padding: 5px;
 }
