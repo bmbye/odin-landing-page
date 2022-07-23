@@ -8,11 +8,15 @@ body {
 
 body .section,footer {
     flex: 1;
-    padding: 0 10% 10% 10%;
+}
+
+body .section {
+    padding: 10%;
 }
 
 .hero {
     background-color: #1F2937;
+    padding-top: 0 !important;
 }
 
 .header {
@@ -35,6 +39,14 @@ body .section,footer {
     text-decoration: none;
     display: inline;
     padding: 10px 10px;
+}
+
+.Odd {
+    background-color: #E5E7EB;
+}
+
+footer {
+    background-color: #1F2937;
 }
 
 .heroBox {
@@ -67,5 +79,61 @@ button {
     font-size: large;
     border-radius: 10%;
     border: none;
-    padding: 5px;
+    padding: 5px 20px;
+}
+
+.illustrationBox {
+    display: flex;
+}
+
+.illustration {
+    width: 226px;
+    flex: 1;
+}
+
+.randomInfo, footer {
+    text-align: center;
+}
+
+.illustration img {
+    padding: 0 15px;
+}
+
+.quote {
+    font-size: x-large;
+}
+
+.signOff {
+    float: right;
+}
+
+.thorQuote {
+    padding-left: 20% !important;
+    padding-right: 20% !important;
+}
+
+.cta {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    display: flex;
+    margin: 2%;
+    padding: 50px 80px;
+    border-radius: 15px;
+}
+
+.ctaText * {
+    margin: 0;
+}
+
+.cta button {
+    margin-left: auto;
+}
+
+.whiteBorder {
+    border: 2px solid #F9FAF8;
+}
+
+footer {
+    color: #F9FAF8;
+    padding: 50px !important;
 }
